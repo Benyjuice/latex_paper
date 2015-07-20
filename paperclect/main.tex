@@ -1,0 +1,55 @@
+\documentclass[a4paper]{ctexart}
+\title{哈尔滨工程大学攻读硕士学位论文}
+\author{付席席}
+\pagestyle{plain}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+
+\usepackage{cite}
+
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			\heiti \zihao{-2} 哈尔滨工程大学
+			\par 
+			\vspace{1em}
+			\zihao{2} 攻读硕士学位研究生论文\par
+			\vspace{1em}
+			\zihao{1} 开题报告
+		\end{center}
+		\vspace{25mm}
+		
+		\begin{center}
+		\parbox[t][1.0cm][t]{\textwidth}{
+			\zihao{-3}
+			\makebox[3.1cm][s]{\heiti 论\hfill 文 \hfill 题 \hfill 目：}
+			\makebox[22em][l]{\songti 基于MSP432单片机水声扩频通信技术研究及实现 }
+		} \par \vspace*{5mm}
+		\parbox[t][1.0cm][t]{\textwidth}{
+			\zihao{-3}
+			\makebox[3.1cm][s]{\heiti 专 \hfill 业：}
+			\makebox[22em][s]{\songti \hfill 电\hfill 子\hfill 与\hfill 通\hfill 信\hfill 工\hfill 程\hfill  }
+		} \par \vspace*{5mm}
+		\parbox[t][1.0cm][t]{\textwidth}{
+			\zihao{-3}
+			\makebox[3.1cm][s]{\heiti 姓 \hfill 名：}
+			\makebox[7cm][s]{\songti \hfill 付\hfill 席 \hfill 席\hfill}
+		} \par
+		\vspace*{25mm}
+		\fbox{
+			\parbox{\textwidth}{
+				\vspace{2mm}
+				 \makebox[3.1cm][l]{\heiti 指导教师审查意见:}
+				\vspace{50mm} \\
+				\makebox[11cm][l]{} \makebox[3.1cm][l]{\songti 指导教师签字}
+				\vspace{2mm} 
+			}
+		}
+	\end{center}
+	\end{titlepage}
+	\input{introduce}
+	
+	\bibliographystyle{unsrt}
+	\bibliography{reference.bib}
+\end{document}
